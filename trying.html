@@ -1,74 +1,154 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>virsraksts</title>
-    </head>
-    <body>
-        <!-- Heading -->
 
-        <h1>heading 1</h1>
-        <h2>heading 2</h2>
-        <h3>heading 3</h3>
-        <h4>heading 4</h4>
-        <h5>heading 5</h5>  
-        <h6>heading 6</h6>
+<head>
+    <title>virsraksts</title>
+</head>
 
-        <!--paragraph-->
+<body>
+    <!-- Heading -->
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, laudantium?</p>
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
 
-        <!--inline elements-->
-              
-        <p>Lorem ipsum dolor sit <strong>amet consectetur </strong>adipisicing elit. Ratione, officiis? Amet eum nam rem. Officia eaque nulla earum ad corrupti odit qui illo soluta iusto officiis cum repellat error deleniti sint fugit expedita sed laborum dolores fuga, facere praesentium! Nihil.</p>
-        <p>Lorem ipsum dolor sit adipisicing elit. Ex praesentium minima ipsam, sunt magni quibusdam repudiandae, nam odit modi non deserunt consequuntur consequatur dolorum dolorem ad id, dignissimos amet natus.</p>
+    <!--paragraph-->
 
-        <!--link-->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, laudantium?</p>
 
-        <p>Te ir links <a href="http://google.com" target="_blank"> links </a></p>
+    <!--inline elements-->
 
-        <!--list-->
-        <ul>
-            <li>list item 1</li>
-            <li>list item 2</li>
-            <li>list item 3</li>
-            <li>list item 4</li>
-        </ul>
-        <ol>
-            <li>list item 1</li>
-            <li>list item 2</li>
-            <li>list item 3</li>
-            <li>list item 4</li>
-        </ol>
+    <p>Lorem ipsum dolor sit <strong>amet consectetur </strong>adipisicing elit. Ratione, officiis? Amet eum nam rem.
+        Officia eaque nulla earum ad corrupti odit qui illo soluta iusto officiis cum repellat error deleniti sint fugit
+        expedita sed laborum dolores fuga, facere praesentium! Nihil.</p>
+    <p>Lorem ipsum dolor sit adipisicing elit. Ex praesentium minima ipsam, sunt magni quibusdam repudiandae, nam odit
+        modi non deserunt consequuntur consequatur dolorum dolorem ad id, dignissimos amet natus.</p>
 
-        <!--tables-->
-        <!-- defoult table looks ugly, but thats because it need stying with css-->
-        <!-- do not use table for layout-->
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>age</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>EVa</td>
-                    <td>eva.gmail.com</td>
-                    <td>33</td>
-                </tr>
-                <tr>
-                    <td>Reinis</td>
-                    <td>reinis@gmail.com</td>
-                    <td>32</td>
-                </tr>
-                <tr>
-                    <td>Hanna</td>
-                    <td>hanna@gmail.com</td>
-                    <td>1</td>
-                </tr>
-            </tbody>
-        </table>
+    <!--link-->
 
-    </body>
+    <p>Te ir links <a href="http://google.com" target="_blank"> links </a></p>
+
+    <!--list-->
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ul>
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ol>
+
+    <!--tables-->
+    <!-- defoult table looks ugly, but thats because it need stying with css-->
+    <!-- do not use table for layout-->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EVa</td>
+                <td>eva.gmail.com</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Reinis</td>
+                <td>reinis@gmail.com</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Hanna</td>
+                <td>hanna@gmail.com</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <!-- FORMS -->
+    <form action="process.php" method="POST">
+        <label> FIRST NAME</label>
+        <input type="text" name="firstName">
+        <label>LAST NAME></label>
+        <input type="text" name="lastName">
+    </form>
+    <Br>
+
+
+    <Form>
+        <Label>First name</Label>
+        <input type="text" name="firstName">
+    </Form>
+    <br>
+    <form>
+        <label>Last name</label>
+        <input type="text" name="lastName">
+    </form>
+
+    <br>
+    <!-- DIV izmanto lai sadalītu forms vienu zem otra, nez cik ok ir taistīt divas form un  <br> pa vidu?-->
+    <form>
+        <div>
+
+            <label>First name </label>
+            <input type="text" name="firstName" value="first name">
+        </div>
+        <br>
+        <div>
+            <label>Last name</label>
+            <input type="text" name="lastName" placeholder="last name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label>transports</label>
+            <select name="transports" id="transports">
+                <option value="auto">auto</option>
+                <option value="ritenis">ritenis</option>
+                <option value="sabiedriskais">sabiedriskais</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit"
+    </form>
+    <!-- ja es tabulas sākumā būtu uzrakstījusi form action="process.php, tad man submit poga aizvestu uz to lapu"-->
+
+</body>
+
 </html>
