@@ -1,0 +1,28 @@
+p{
+    overflow: hidden;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+ul{
+    
+    list-style-type: circle;
+}
+li {
+    float: left;
+    margin: 5px;
+    padding: 6px;
+    line-height: 20px;
+
+}

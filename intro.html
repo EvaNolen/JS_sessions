@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <title>Page title</title>
+        <title>Input page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
+
     <body>
-        <h1>into virsraksts</h1>
-        <p>intro paragrāfiņš</p>
+        <form action="intro.html" method="POST">
+            <fieldset>
+                <legend>Person data</legend>
+                <input type="text" name="name" placeholder="name">
+                <input type="text" name="surname" placeholder="surname">
+                <label for="checkboxId">this ir checkbox type</label> 
+                <input type="checkbox" name="checkbox" id="checkboxId">
+                <label for="male">male</label> 
+                <input type="radio" id="male" name="gender">
+                <label for="female">female</label> 
+                <input type="radio" id="female" name="gender">
+                <select name="car" id="car">
+                    <option value="audi">
+                        audi
+                    </option>
+                    <option value="volvo">
+                        volvo
+                    </option>
+                    <option value="bmw">
+                        bmw
+                    </option>
+                    <option  value="" disabled selected hidden>
+                        Please select your answer
+                    </option>
+                </select>
+            </fieldset>
+            <button type="submit" class="save"> save </button>
+            <button type="submit" class="cancel"> cancel </button>
+        </form>
+        <div class="myRule">
+            <h1>Šis ir virsraksts</h1>
+                <p>
+                    Šis ir pirmais paragrāfs
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio in fugit quo architecto debitis magnam natus amet perspiciatis suscipit. Excepturi eum repellat praesentium, neque ratione repudiandae voluptatibus temporibus est ipsum.
+                </p>
+            <br>
+                <p>
+                    šis ir otrais paragrāfs
+                </p>
+        </div>
+            <p>
+                šis ir trešais paragrāfs
+            </p>
+
     </body>
 </html>

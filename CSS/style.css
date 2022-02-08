@@ -1,3 +1,7 @@
+*{
+    
+}
+
 body{
     background-color: #f4f4f4;
     color: #555555;
@@ -8,6 +12,8 @@ body{
     font: normal 16px Arial, Helvetica, sans-serif;
     line-height: 1.6em;
     margin: 0;
+    margin-left: 25%;
+    margin-top: 10%;
 }
 .container{
     width: 80%;
@@ -23,4 +29,39 @@ body{
     border-bottom: 5px red solid;
 
     border: 5px red solid;
+}
+
+.button {
+    color:cornsilk;
+}
+
+.save {
+    background-color: #74992e;
+}
+
+.cancel {
+    background-color: #92a8d1;
+}
+
+.myRule {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #74992e;
+    font-size: 20pt;
+    font color: #black !important;
+    
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
 }
