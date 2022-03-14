@@ -1,0 +1,2 @@
+document.title = "The New Title"; //pieklūst elementa title un nomaina to
+console.log(this.document.getElementById("MyParag"));
